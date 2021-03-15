@@ -12,34 +12,35 @@ Make your player's **D&D Beyond** rolls visible in Foundry Virtual Tabletop.
 ---
 
 
-## Features
+## ⭐️ Features
+
+Features marked with a `*` require Patreon membership.
+
+### Live
 
 - Rolls from the D&D Beyond website
 - Rolls from the D&D Beyond Player Tools mobile apps
 - Link D&D Beyond characters to FVTT Players for fully integrated rolls
-- Custom themes*
-- Dice So Nice! integration*
-- Roll result breakdown*
-- Discord integration with dice images*
+- Custom themes `*`
+- Dice So Nice! integration `*`
+- Roll result breakdown `*`
+- Discord integration with dice images `*`
+
+### Upcoming
+
+- Faster and easier importing of D&D Beyond players `*`
+- Import D&D Beyond roll history `*`
 
 
-## Upcoming features
+### Long-term
 
-- Faster and easier importing of D&D Beyond players*
-- Import D&D Beyond roll history*
-
-
-## Long-term features
-
-- Full automation on Foundry (applying damages/healing)
-
-* Requires Patreon membership
+- Full automation on Foundry (applying damage/healing)
 
 
 ---
 
 
-## How to set up the module
+## ❓ How to set up the module
 
 <!-- TODO -->
 
@@ -47,12 +48,12 @@ Make your player's **D&D Beyond** rolls visible in Foundry Virtual Tabletop.
 ---
 
 
-## Known issues
+## ⚠️ Known issues
 
-**Reconnection.** D&D Beyond closes the websocket connection every 2 hours, so the module has to follow that and reconnect.
+- D&D Beyond closes the websocket connection every 2 hours, so the module has to follow that and reconnect.
 
 
-## Compatibility
+## 🧩 Compatibility
 
 Severity | Service | Description
 ---------|---------|------------
@@ -63,12 +64,12 @@ Warning | The Forge | Users have noticed some problems when using the module in 
 ---
 
 
-## Discord server
+## 💬 Discord server
 
 You can [join my discord server](https://discord.gg/HSTtrphyFg) to share your ideas, ask questions, and report bugs!
 
 
-## Support the development
+## ❤️ Support the development
 
 You can support the development of this module and unlock access to advanced features by becoming a [Patreon](https://www.patreon.com/iamwarhead) supporter.
 
@@ -76,8 +77,6 @@ You can support the development of this module and unlock access to advanced fea
 ---
 
 
-## Copyright
+## 📜 Copyright
 
-DDB Game Log by Roland Hegedus is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International. You can read the full license [here](https://github.com/IamWarHead/ddb-game-log/blob/master/LICENSE.md).
-
-© 2021 Roland Hegedus
+DDB Game Log by Roland Hegedus is licensed under Creative Commons' Attribution-NonCommercial-NoDerivatives 4.0 International. You can read the full license [here](https://github.com/IamWarHead/ddb-game-log/blob/master/LICENSE.md).
