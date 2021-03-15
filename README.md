@@ -1,77 +1,83 @@
-# DDB Gamelog - A Foundry VTT module
+# DDB Game Log for Foundry VTT
 
-Make your D&D Beyond rolls visible in Foundry Virtual Tabletop with ease. 
+Make your player's **D&D Beyond** rolls visible in Foundry Virtual Tabletop.
 
----
-
-#### ✅ No browser extensions or iframes needed and literally you can roll for [EVERY SINGLE THING].
-#### :rocket: D&D Beyond (on desktop) and the D&D Beyond Player app (iOS & Android) are also supported. 
-#### :iphone: Grab your phone and play with ease!
-
+- **Free.** Basic functionality will always be free, with additional perks unlocked to [Patreon](https://www.patreon.com/iamwarhead) supporters.
+- **Independent and Native.** No browser extensions or iframes needed. Uses Foundry's native messages.
+- **Multiplatform.** The module listens to both the [website](https://dndbeyond.com) and the [D&D Beyond Player Tools](https://www.dndbeyond.com/player-app) mobile apps.
 
 ![DDB Gamelog](http://ddbgamelog.datapoint.hu/images/tutorial/demo1.gif)
 
-&nbsp;
 
-## Features:
+---
 
-- Displaying rolls from D&D Beyond (Desktop)
-- Displaying rolls from D&D Beyond Player App* (Mobile / Tablet / iOS, Android)
-- Displaying pending rolls (optional)
-- Self removing pending rolls 
-- Manual D&D Beyond PlayerID / FVTT PlayerID mapping
-- Custom themed roll messages*
+
+## Features
+
+- Rolls from the D&D Beyond website
+- Rolls from the D&D Beyond Player Tools mobile apps
+- Link D&D Beyond characters to FVTT Players for fully integrated rolls
+- Custom themes*
 - Dice So Nice! integration*
 - Roll result breakdown*
+- Discord integration with dice images*
 
-## New Features:
-- Discord Integration* (display your rolls from dndbeyond on a channel on your discord server)
-  - Adds support for displaying your player's custom D&D Beyond dice sets in discord messages.
 
 ## Upcoming features
 
-- D&D Beyond player importer from campaign to make beyond player id / foundry vtt player id mapping significantly faster*
-- D&D Beyond roll history import*
+- Faster and easier importing of D&D Beyond players*
+- Import D&D Beyond roll history*
 
-## Long term goals
 
-- Full automatism with Foundry. You will be able to apply damages / heals / etc
+## Long-term features
 
-___* Feature requires Patreon supporter membership___
+- Full automation on Foundry (applying damages/healing)
 
-## How to set up module
+* Requires Patreon membership
 
-[Click here for step by step instructions](https://github.com/IamWarHead/ddb-game-log/wiki)
 
-&nbsp;
+---
+
+
+## How to set up the module
+
+<!-- TODO -->
+
+
+---
+
 
 ## Known issues
 
-**Getting disconnected and reconnected every 2 hours**
-D&D Beyond closes websocket connection every 2 hours so its a proper working mechanics if the module is reconnecting automatically.
+**Reconnection.** D&D Beyond closes the websocket connection every 2 hours, so the module has to follow that and reconnect.
 
-&nbsp;
 
-## Known incompatibilities
+## Compatibility
 
-:exclamation: Beyond20 unfortunately blocking the Game Log feature of DND Beyond, it is not passing the roll data to the socket server. In addition to this **you have to disable the Beyond20 Chrome Extension and the module too** or DDB Gamelog won't be able to display your rolls.
+Severity | Service | Description
+---------|---------|------------
+Breaking | Beyond20 | Please disable both the Beyond20 Foundry module and the Beyond20 Chrome Extension or DDB Game Log won't be able to display your rolls.
+Warning | The Forge | Users have noticed some problems when using the module in Forge instances. These issues are currently under investigation.
 
-:exclamation: Users have noticed some problems when using the module in Forge instances. Issues are under investigation currently.
 
-&nbsp;
+---
 
-## IamWarHead's Software Bakery - Discord server
 
-[Join my discord server](https://discord.gg/HSTtrphyFg) and tell me your ideas, ask your questions or report your bugs! Take part of the development, be part of the community!
+## Discord server
 
-&nbsp;
+You can [join my discord server](https://discord.gg/HSTtrphyFg) to share your ideas, ask questions, and report bugs!
 
-## Sidenotes
 
-English is not my main language, if you found any mistakes (you will, for sure 😥) please let me know and I will correct it.
+## Support the development
+
+You can support the development of this module and unlock access to advanced features by becoming a [Patreon](https://www.patreon.com/iamwarhead) supporter.
+
+
+---
+
 
 ## Copyright
 
-DDB Gamelog by Roland Hegedus is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International 
+DDB Game Log by Roland Hegedus is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International. You can read the full license [here](https://github.com/IamWarHead/ddb-game-log/blob/master/LICENSE.md).
 
-(c)2021 Roland Hegedus
+© 2021 Roland Hegedus
